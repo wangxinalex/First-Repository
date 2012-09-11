@@ -1,9 +1,11 @@
-/*
- * string_copy.cpp
- *
- *  Created on: 2012-8-21
- *      Author: Administrator
- */
+/*========================================================================
+#   FileName: string_copy.cpp
+#     Author: wangxinalex
+#      Email: wangxinalex@gmail.com
+#   HomePage: wangxinalex@gmail.com
+# LastChange: 2012-09-11 21:55:53
+========================================================================*/
+#include <iostream>
 
 #include <list>
 #include <vector>

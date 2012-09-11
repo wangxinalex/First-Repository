@@ -1,10 +1,11 @@
-//============================================================================
-// Name        : Vector.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
+/*========================================================================
+#   FileName: Vector.cpp
+#     Author: wangxinalex
+#      Email: wangxinalex@gmail.com
+#   HomePage: wangxinalex@gmail.com
+# LastChange: 2012-09-11 21:56:46
+========================================================================*/
+#include <iostream>
 
 #include <iostream>
 #include <vector>
