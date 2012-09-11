@@ -15,7 +15,7 @@
 using namespace std;
 typedef vector<int>::size_type v_size;
 extern bool search(vector<int>::iterator start, vector<int>::iterator end, int aim);
-int main2() {
+int main() {
 //	vector<string> ivec(SIZE, HI);
 //	for (vector<string>::iterator iter = ivec.begin(); iter != ivec.end();
 //			++iter) {
@@ -32,5 +32,6 @@ int main2() {
 	}
 	bool flag = search(target.begin(),target.end(),5);
 	cout<<flag<<endl;
+	cout<<HI<<endl;
 	return 0;
 }

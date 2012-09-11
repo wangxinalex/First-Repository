@@ -17,7 +17,7 @@ int main() {
 	for (size_t i = 0; i < 100; i++) {
 		li.push_back(i);
 	}
-
+/*This is a test comment*/
 	list<int>::iterator iter;
 	for (iter = li.begin(); iter != li.end(); iter++) {
 		if (*iter % 2 == 0) {
