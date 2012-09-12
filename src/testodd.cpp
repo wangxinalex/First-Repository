@@ -26,16 +26,20 @@ int main() {
 			odd.push_back(*iter);
 		}
 	}
+	int flag;
 	deque<int>::size_type size;
-	for (size = 0; size != odd.size(); size++) {
-		cout << odd[size] << " ";
+	cin>>flag;
+	if(flag==1){
+		for (size = 0; size != odd.size(); size++) {
+			cout << odd[size] << " ";
+		}
+		cout<<endl;
 	}
-	cout<<endl;
-	size = 0;
-	for (size = 0; size != even.size(); size++) {
-		cout << even[size] << " ";
+	else{
+		for (size = 0; size != even.size(); size++) {
+			cout << even[size] << " ";
+		}
 	}
 	return 0;
-
 }
 
